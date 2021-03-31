@@ -1,2 +1,2 @@
 # Data-Science
-All practices of data sciemce
+All practices of data science
