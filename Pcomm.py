@@ -4,7 +4,6 @@ import numpy as nm
 df=pd.read_csv('NF.csv')
 
 
-
 movies= df[df["type"]=="Movie"].reset_index()
 movies=movies.drop(['index','show_id','type','date_added','release_year','duration','description'],axis=1)
 print(movies.head())
